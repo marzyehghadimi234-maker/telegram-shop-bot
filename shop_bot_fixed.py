@@ -9,7 +9,7 @@ from aiogram.types import (
 )
 
 # ---------- تنظیمات ----------
-API_TOKEN = "-------------------"
+API_TOKEN = "8234319115:AAHm6v2Ex29RiHJ-1TpXskSeRWwd_AAHJFs"
 ADMIN_ID = 8152990398
 
 bot = Bot(token=API_TOKEN)
