@@ -1,4 +1,5 @@
 import sqlite3
+import os
 from aiogram import Bot, Dispatcher, executor, types
 from aiogram.dispatcher import FSMContext
 from aiogram.dispatcher.filters.state import State, StatesGroup
@@ -9,7 +10,7 @@ from aiogram.types import (
 )
 
 # ---------- تنظیمات ----------
-API_TOKEN = "8234319115:AAHm6v2Ex29RiHJ-1TpXskSeRWwd_AAHJFs"
+API_TOKEN = os.environ.get("BOT_TOKEN")
 ADMIN_ID = 8152990398
 
 bot = Bot(token=API_TOKEN)
